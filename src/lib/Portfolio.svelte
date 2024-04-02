@@ -10,8 +10,7 @@
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam cumque asperiores doloribus deserunt temporibus molestias quia quasi facilis placeat corporis obcaecati eaque rerum, non maxime, dolorum sunt sed sapiente!",
       tags: ["HTML", "CSS", "JS", "PHP"],
-      image:
-        "https://raw.githubusercontent.com/HigorZicaDev/site-pizza-per-favore/main/img/CardapioPizza1.png",
+      image: "/projetos/CardapioPizza1.png",
       link_demo: "",
       link_github: "https://github.com/HigorZicaDev/site-pizza-per-favore",
     },
@@ -34,9 +33,8 @@
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam cumque asperiores doloribus deserunt temporibus molestias quia quasi facilis placeat corporis obcaecati eaque rerum, non maxime, dolorum sunt sed sapiente!",
       tags: ["HTML", "CSS", "JS", "PHP"],
-      image:
-        "https://raw.githubusercontent.com/HigorZicaDev/profmargaux-site/main/assets/images/img1-site.png",
-      link_demo: "",
+      image: "/projetos/img1-site.png",
+      link_demo: "https://profmargauxfrances.com/",
       link_github: "https://github.com/HigorZicaDev/profmargaux-site",
     },
     {
@@ -47,8 +45,8 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam cumque asperiores doloribus deserunt temporibus molestias quia quasi facilis placeat corporis obcaecati eaque rerum, non maxime, dolorum sunt sed sapiente!",
       tags: ["HTML", "CSS", "JS", "ANGULAR JS"],
       image: "/projetos/quizSiteApp1.png",
-      link_demo: "https://higorzica.github.io/proj-quiz-frances/",
-      link_github: "",
+      link_demo: "https://higorzicadev.github.io/proj-quiz-frances/",
+      link_github: "https://github.com/HigorZicaDev/proj-quiz-frances",
     },
   ];
 
