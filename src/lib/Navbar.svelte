@@ -10,7 +10,7 @@
   ];
 
   const p = $page.url;
-  console.log(p);
+  // console.log(p);
 </script>
 
 <nav class="bg-white shadow dark:bg-gray-800">

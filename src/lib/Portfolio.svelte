@@ -1,7 +1,13 @@
 <script lang="ts">
   let currentCategory = "Tous";
 
-  const categories = ["Tous", "Website", "Micro SAAS", "Jeux Online"];
+  const categories = [
+    "Tous",
+    "Website",
+    "Micro SAAS",
+    "Jeux Online",
+    "Backend",
+  ];
   const projets = [
     {
       id: 1,
@@ -48,6 +54,17 @@
       link_demo: "https://higorzicadev.github.io/proj-quiz-frances/",
       link_github: "https://github.com/HigorZicaDev/proj-quiz-frances",
     },
+    {
+      id: 5,
+      title: "API Consumer PHP Pure",
+      category: "Backend",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam cumque asperiores doloribus deserunt temporibus molestias quia quasi facilis placeat corporis obcaecati eaque rerum, non maxime, dolorum sunt sed sapiente!",
+      tags: ["PHP"],
+      image: "/projetos/api-php-paises.png",
+      link_demo: "",
+      link_github: "https://github.com/HigorZicaDev/api_consumer_php",
+    },
   ];
 
   function changeCategory(newCategory: string) {
@@ -65,12 +82,14 @@
 </script>
 
 <div class="bg-white">
+  <br />
   <h1
-    class="mt-4 mb-6 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+    class="mt-4 mb-6 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
   >
-    Mes <span
+    <span
       class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600"
-      >projets personnels</span
+    >
+      Mes projets personnels</span
     >
   </h1>
   <nav class="flex flex-col justify-center sm:flex-row">
