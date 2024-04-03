@@ -2,10 +2,10 @@
   import { page } from "$app/stores";
 
   const items = [
-    { href: "/", label: "Inicio" },
+    // { href: "/", label: "Inicio" },
     // { href: "/sobre", label: "Sobre" },
-    { href: "/portfolio", label: "Portfolio" },
-    { href: "/contato", label: "Contato" },
+    { href: "/portfolio", label: "Portefeuille" },
+    { href: "/contato", label: "Contact" },
     // { href: "/faq", label: "Perguntas Frequentes" },
   ];
 

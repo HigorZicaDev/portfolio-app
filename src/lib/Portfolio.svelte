@@ -116,7 +116,7 @@
 
 <section class="bg-white dark:bg-gray-900">
   <div class="container px-6 py-6 mx-auto">
-    <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
+    <div class="grid grid-cols-1 gap-9 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
       {#each projetsItems as { id, title, description, category, tags, image, link_demo, link_github }}
         <div
           class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
