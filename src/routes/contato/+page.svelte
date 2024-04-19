@@ -4,13 +4,15 @@
     Mes réseaux sociaux
   </h1>
   <p class="w-16 mx-auto mt-4 h-1 w-30 bg-red-500"></p>
-  <div class="grid md:grid-cols-3 gap-y-10 px-4 mt-20 gap-x-6 lg:px-40 md:px-">
-    <div class="bg-slate-800 flex flex-col items-center py-12">
-      <div class="mb-4">
+  <div class="grid md:grid-cols-3 gap-y-10 px-4 mt-20 gap-x-6 lg:px-40">
+    <div
+      class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700"
+    >
+      <a href="https://github.com/HigorZicaDev">
         <svg
           class="w-10 h-10"
           aria-hidden="true"
-          fill="#fff"
+          fill="#000"
           viewBox="0 0 24 24"
         >
           <path
@@ -19,22 +21,46 @@
             clip-rule="evenodd"
           ></path>
         </svg>
-      </div>
-      <h2 class="text-white text-2xl font-semibold mb-2">Github</h2>
-      <p class="text-white text-lg w-80 text-center">
-        <a
-          href="https://github.com/HigorZicaDev"
-          target="_blank"
-          rel="noopener noreferrer">https://github.com/HigorZicaDev</a
+        <h5
+          class="mt-2 mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
+          Github
+        </h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        @HigorZicaDev
       </p>
+      <a
+        href="https://github.com/HigorZicaDev"
+        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Accéder
+        <svg
+          class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 10"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9"
+          />
+        </svg>
+      </a>
     </div>
-    <div class="bg-slate-800 flex flex-col items-center py-12">
-      <div class="mb-4">
+
+    <div
+      class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700"
+    >
+      <a href="https://www.instagram.com/higor_zica">
         <svg
           class="w-10 h-10"
           aria-hidden="true"
-          fill="#fff"
+          fill="#000"
           viewBox="0 0 24 24"
         >
           <path
@@ -43,38 +69,83 @@
             clip-rule="evenodd"
           ></path>
         </svg>
-      </div>
-      <h2 class="text-white text-2xl font-semibold mb-2">Instagram</h2>
-      <p class="text-white text-lg w-80 text-center">
-        <a
-          href="https://www.instagram.com/higor_zica"
-          target="_blank"
-          rel="noopener noreferrer">@higor_zica</a
+        <h5
+          class="mt-2 mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
+          Instagram
+        </h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        @higor_zica
       </p>
+      <a
+        href="https://www.instagram.com/higor_zica"
+        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Accéder
+        <svg
+          class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 10"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9"
+          />
+        </svg>
+      </a>
     </div>
-    <div class="bg-slate-800 flex flex-col items-center py-12">
-      <div class="mb-4">
+
+    <div
+      class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700"
+    >
+      <a href="https://www.linkedin.com/in/higor-zica-dev-ti/">
         <svg
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          fill="#fff"
+          fill="#000"
           xmlns="http://www.w3.org/2000/svg"
           ><path
             d="M13 21H9V9H13V11C13.8526 9.91525 15.1456 9.26857 16.525 9.237C19.0056 9.25077 21.0072 11.2694 21 13.75V21H17V14.25C16.84 13.1326 15.8818 12.3036 14.753 12.306C14.2593 12.3216 13.7932 12.5378 13.4624 12.9046C13.1316 13.2715 12.9646 13.7573 13 14.25V21ZM7 21H3V9H7V21ZM5 7C3.89543 7 3 6.10457 3 5C3 3.89543 3.89543 3 5 3C6.10457 3 7 3.89543 7 5C7 5.53043 6.78929 6.03914 6.41421 6.41421C6.03914 6.78929 5.53043 7 5 7Z"
-            fill="#fff"
-          ></path></svg
+            fill="#000"
+          ></path>
+        </svg>
+        <h5
+          class="mt-2 mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
-      </div>
-      <h2 class="text-white text-2xl font-semibold mb-2">Linkedin</h2>
-      <p class="text-white text-lg w-80 text-center">
-        <a
-          href="https://www.linkedin.com/in/higor-zica-dev-ti/"
-          target="_blank"
-          rel="noopener noreferrer">@higor-zica-dev-ti</a
-        >
+          Linkedin
+        </h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        /in/higor-zica-dev-ti
       </p>
+      <a
+        href="https://www.linkedin.com/in/higor-zica-dev-ti/"
+        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Accéder
+        <svg
+          class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 10"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9"
+          />
+        </svg>
+      </a>
     </div>
   </div>
 </section>

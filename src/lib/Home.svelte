@@ -72,7 +72,7 @@
             class="profile_item bottom-8 -left-0 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500"
           >
             <span
-              class="block w-[50px] h-[50px] transition-all duration-500 rounded-full z-[2] bg-white p-1"
+              class="block w-[50px] h-[50px] transition-all duration-500 rounded-full z-[2] bg-white p-2"
             >
               <svg
                 class="w-[40px] h-[40px]"
@@ -96,7 +96,7 @@
             class="profile_item bottom-8 -right-0 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500"
           >
             <span
-              class="block w-[50px] h-[50px] transition-all duration-500 rounded-full z-[2] bg-white p-1"
+              class="block w-[50px] h-[50px] transition-all duration-500 rounded-full z-[2] bg-white p-2"
             >
               <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"
                 ><path
@@ -117,7 +117,7 @@
             class="profile_item right-[40%] -bottom-4 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500"
           >
             <span
-              class="block w-[50px] h-[50px] transition-all duration-500 rounded-full z-[2] bg-white p-1"
+              class="block w-[50px] h-[50px] transition-all duration-500 rounded-full z-[2] bg-white p-2"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,10 +146,10 @@
             <div
               class="w-full bg-white h-full flex items-center justify-center p-2 rounded-full active:scale-95 hover:scale-95 object-cover transition-all duration-500"
             >
-              <span class="w-28 inline-block">
+              <span class="w-36 inline-block">
                 <img
-                  class="shadow-xl rounded-full h-auto object-cover"
-                  src="fotoHome.jpg"
+                  class="shadow-xl rounded-full h-auto object-cover object-center"
+                  src="https://avatars.githubusercontent.com/u/165382509?v=4"
                   alt="Foto de Perfil"
                 />
               </span>

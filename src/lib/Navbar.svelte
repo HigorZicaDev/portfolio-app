@@ -2,22 +2,20 @@
   import { page } from "$app/stores";
 
   const items = [
-    // { href: "/", label: "Inicio" },
-    // { href: "/sobre", label: "Sobre" },
     { href: "/portfolio", label: "Portefeuille" },
     { href: "/contato", label: "Contact" },
-    // { href: "/faq", label: "Perguntas Frequentes" },
+    { href: "/parcous", label: "Mon Parcous" },
   ];
 
   const p = $page.url;
-  // console.log(p);
 </script>
 
 <nav class="bg-white shadow dark:bg-gray-800">
   <div
     class="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300"
   >
-    <a href="/">
+    <a href="/" class="flex items-center justify-center">
+      Home
       <img class="logo mr-5" src="logo.png" alt="Logo Home" />
     </a>
 

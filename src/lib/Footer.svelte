@@ -2,7 +2,7 @@
   const year = new Date().getFullYear();
 </script>
 
-<footer class="bg-white dark:bg-gray-900 sticky top-[100vh]">
+<footer class="bg-white dark:bg-gray-900 relative top-[10vh]">
   <div
     class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row"
   >
