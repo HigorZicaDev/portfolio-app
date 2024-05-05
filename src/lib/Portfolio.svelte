@@ -78,6 +78,18 @@
       link_demo: "https://higorzicadev.github.io/mtp-burger/",
       link_github: "https://github.com/HigorZicaDev/mtp-burger",
     },
+    {
+      id: 7,
+      title: "BLOG - Brésiliens en Montpellier Website",
+      category: "Website",
+      description:
+        "Ce projet est un site de type blog créé pour aider la communauté des Brésiliens vivant à Montpellier avec des conseils et des informations intéressantes.",
+      tags: ["NEXT-JS", "CSS", "JS"],
+      image: "/projetos/bresilensmtp-pageHome.png",
+      link_demo: "https://blog-brasileiros-em-montpellier.vercel.app/",
+      link_github:
+        "https://github.com/HigorZicaDev/blog-brasileiros-em-montpellier",
+    },
   ];
 
   function modalShow(newDescription: string) {
@@ -214,7 +226,7 @@
                 {/each}
               </div>
               <br />
-              <div class="flex flex-row gap-2">
+              <div class="flex flex-row flex-wrap gap-2">
                 <a
                   href={link_demo}
                   class="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-6 py-1 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900"
